@@ -12,5 +12,7 @@ raise Exception('Describe exception')
 raise SpecificException('Specific exception')
 
 # Call parent class's method
-super(Foo, self).foo(1, 2)  # Python 2
-super().foo(1, 2)           # Python 3
+class Foo(Bar):
+  def baz(self, arg):
+    return super(Foo, self).baz(arg)  # Python 2
+    return super().baz(arg)           # Python 3
