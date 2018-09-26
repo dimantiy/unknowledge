@@ -16,3 +16,6 @@ class Foo(Bar):
   def baz(self, arg):
     return super(Foo, self).baz(arg)  # Python 2
     return super().baz(arg)           # Python 3
+
+# Pandas remove columns
+df = df.drop(columns=['B', 'C'])
