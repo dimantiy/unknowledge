@@ -19,3 +19,6 @@ class Foo(Bar):
 
 # Pandas remove columns
 df = df.drop(columns=['B', 'C'])
+
+# Pandas apply by row
+df.apply(lambda x: foo(x['a'], x['b'], x['c']), axis=1)
