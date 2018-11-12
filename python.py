@@ -26,3 +26,6 @@ df.apply(lambda x: foo(x['a'], x['b'], x['c']), axis=1)
 # Find all occurrences of a substring
 import re
 [m.start() for m in re.finditer('test', 'test test test test')]
+
+# Regex replace
+re.sub('(\d)\.(\d)', '\\1_\\2', '12. 12.23')  # > '12. 12_23'
