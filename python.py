@@ -22,3 +22,7 @@ df = df.drop(columns=['B', 'C'])
 
 # Pandas apply by row
 df.apply(lambda x: foo(x['a'], x['b'], x['c']), axis=1)
+
+# Find all occurrences of a substring
+import re
+[m.start() for m in re.finditer('test', 'test test test test')]
