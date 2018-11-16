@@ -33,3 +33,8 @@ re.sub('(\d)\.(\d)', '\\1_\\2', '12. 12.23')  # > '12. 12_23'
 # List of files
 import glob
 print(glob.glob("/path/to/files/*.txt"))
+
+# Jupyter - Progress bar
+from tqdm import tqdm
+for i in tqdm(range(10000)):
+    ...
