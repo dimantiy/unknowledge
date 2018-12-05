@@ -25,3 +25,10 @@ done
 while read -r line; do
     echo "... $line ..."
 done <<< "$list"
+
+# Replace - sed
+# -i '' - inplace replace
+# -r    - use regexp Linux
+# -E    - use regexp Mac
+# &     - placeholder for match
+sed -i '' -r "s/[0-9]+/& &/g" path/to/file.txt
