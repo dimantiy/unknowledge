@@ -38,3 +38,6 @@ print(glob.glob("/path/to/files/*.txt"))
 from tqdm import tqdm
 for i in tqdm(range(10000)):
     ...
+
+# Check string is number
+str.isdigit()
