@@ -41,3 +41,6 @@ for i in tqdm(range(10000)):
 
 # Check string is number
 str.isdigit()
+
+# Sorting array of dict
+sorted(arr, key=lambda x: x['field'], reverse=False)
