@@ -32,3 +32,10 @@ done <<< "$list"
 # -E    - use regexp Mac
 # &     - placeholder for match
 sed -i '' -r "s/[0-9]+/& &/g" path/to/file.txt
+
+# Comporess file/folder
+tar -cvf output.tar input/
+tar -cvfz output.tgz input/
+
+# Decompress archive
+tar -evf input.tar
