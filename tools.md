@@ -27,6 +27,6 @@
 
 ### ChatBot
 
-[Rasa](https://rasa.com/)
-[BotPress](https://botpress.io/)
-[IKY](https://github.com/alfredfrancis/ai-chatbot-framework/)
+- [Rasa](https://rasa.com/)
+- [BotPress](https://botpress.io/)
+- [IKY](https://github.com/alfredfrancis/ai-chatbot-framework/)
