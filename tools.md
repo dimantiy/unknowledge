@@ -30,3 +30,7 @@
 - [Rasa](https://rasa.com/)
 - [BotPress](https://botpress.io/)
 - [IKY](https://github.com/alfredfrancis/ai-chatbot-framework/)
+
+### Text Annotation
+
+- [Doccano](https://github.com/chakki-works/doccano)
