@@ -2,15 +2,15 @@
 
 ### API Management Systems
 
-- Kong
+- [Kong](https://konghq.com/)
 
 ### Search Engine
 
-- ElasticSearch
+- [ElasticSearch](https://www.elastic.co/products/elasticsearch)
 
 ### Logging
 
-- Kibana
+- [Kibana](https://www.elastic.co/products/kibana)
 
 ### Monitoring
 
@@ -21,7 +21,7 @@
 
 ### CI/CD
 
-- Jenkins
+- [Jenkins](https://jenkins.io/)
 - Airflow
 - Luigi
 
